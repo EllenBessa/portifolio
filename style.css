@@ -72,3 +72,21 @@ aside div {
 .green-border {
   border: 2px solid var(--avatar-border-color);
 }
+
+.contacts-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacts-card a {
+  color: var(--text-color);
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contacts-card a:hover {
+  text-decoration: underline;
+}

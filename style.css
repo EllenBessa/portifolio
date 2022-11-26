@@ -115,3 +115,41 @@ aside div {
   border-radius: 30px;
   background-color: var(--bg-techs);
 }
+
+.education-card h2 {
+  color: var(--text-color);
+}
+
+.education-card ul {
+  padding: 20px 40px 0;
+}
+
+.education-card ul li {
+  margin-bottom: 16px;
+
+  color: var(--text-color);
+}
+
+.education-card ul li:last-child {
+  margin-bottom: 0;
+}
+
+.education-card ul li strong,
+.education-card ul li time,
+.education-card ul li span {
+  display: block;
+  line-height: 1.6;
+}
+
+.education-card ul li strong {
+  font-size: 14px;
+}
+
+.education-card ul li time {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.education-card ul li span {
+  font-size: 12px;
+}

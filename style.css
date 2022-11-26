@@ -162,6 +162,12 @@ main {
   width: 100%;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .projects header {
   padding: 30px;
 
@@ -185,4 +191,72 @@ main {
 
 .projects header a:hover {
   text-decoration: underline;
+}
+
+.projects-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+}
+
+.project-card {
+  padding: 30px;
+
+  border-radius: 20px;
+  background-color: var(--bg-cards);
+
+  border: 1px solid transparent;
+}
+
+.project-card:hover {
+  border: 1px solid var(--avatar-border-color);
+}
+
+.project-card header {
+  all: unset;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.project-card header h3 {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.project-card p {
+  margin-top: 20px;
+
+  line-height: 1.6;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.project-card footer {
+  margin-top: 32px;
+
+  color: var(--text-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-card footer div {
+  display: flex;
+  gap: 16px;
+}
+
+.project-card footer div span {
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-card footer span {
+  font-size: 14px;
 }

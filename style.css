@@ -24,6 +24,9 @@ body {
 
   padding: 40px;
   margin: 0 auto;
+
+  display: flex;
+  gap: 60px;
 }
 
 aside {
@@ -152,4 +155,34 @@ aside div {
 
 .education-card ul li span {
   font-size: 12px;
+}
+
+main {
+  max-width: 1030px;
+  width: 100%;
+}
+
+.projects header {
+  padding: 30px;
+
+  border-radius: 20px;
+  background: var(--bg-cards);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects header h2 {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.projects header a {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.projects header a:hover {
+  text-decoration: underline;
 }

@@ -276,3 +276,49 @@ main {
   font-size: 20px;
   color: var(--text-color);
 }
+
+.posts article {
+  margin-top: 30px;
+  padding: 30px;
+
+  border-radius: 20px;
+  background-color: var(--bg-cards);
+
+  display: flex;
+  gap: 20px;
+}
+
+.posts article div header {
+  all: unset;
+}
+
+.posts article div header h3 {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.posts article div header time {
+  display: block;
+  margin-top: 8px;
+
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.posts article div p {
+  margin-top: 28px;
+
+  color: var(--text-color);
+}
+
+.posts article div footer {
+  margin-top: 12px;
+
+  display: flex;
+  gap: 12px;
+}
+
+.posts article div footer span {
+  font-size: 14px;
+  color: var(--text-color);
+}
